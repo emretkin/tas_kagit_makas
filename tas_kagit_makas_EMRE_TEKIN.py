@@ -32,7 +32,7 @@ def devam_sorgusu(siz,pc):
     i=1
     while True:
         if i:
-            bilgisayar="Evet"
+            bilgisayar=random.choice(devam_Secenekleri)
             i=i-1
             
         if(bilgisayar=="Evet"):
